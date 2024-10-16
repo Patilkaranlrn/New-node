@@ -7,7 +7,7 @@ import { Sequelize, DataTypes } from 'sequelize';
 
 // Create a new Sequelize instance
 const sequelize = new Sequelize('conqa4', 'console', 'console', {
-  host: '',  // e.g., 'localhost' or AWS RDS endpoint
+  host: 'qa4-pgdb.cluster-cdbfksdstwqb.us-east-1.rds.amazonaws.com',  // e.g., 'localhost' or AWS RDS endpoint
   dialect: 'postgres',
   logging: false, port: 1526,
 });
